@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     @livewireStyles
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/boostrap.min.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -81,8 +81,9 @@
             @yield('content')
         </main>
         <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}"></script>
         @livewireScripts
+        <script src="{{ asset('assets/js/jquery-3.6.4.min') }}" />
+        <script src="{{ asset('assets/js/boostrap.bundle.min.js') }}" />
     </div>
 </body>
 
