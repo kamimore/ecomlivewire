@@ -82,8 +82,8 @@
         </main>
         <!-- Scripts -->
         @livewireScripts
-        <script src="{{ asset('assets/js/jquery-3.6.4.min') }}" />
-        <script src="{{ asset('assets/js/boostrap.bundle.min.js') }}" />
+        <script src="{{ asset('assets/js/jquery-3.6.4.min.js') }}" ></script>
+        <script src="{{ asset('assets/js/boostrap.bundle.min.js') }}" ></script>
     </div>
 </body>
 
